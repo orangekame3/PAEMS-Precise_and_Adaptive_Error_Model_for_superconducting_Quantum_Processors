@@ -6,6 +6,7 @@ This project focuses on developing a accurate and high-speed model of quantum no
 Accurate noise modeling is essential for developing practical quantum computers, but current approaches have significant limitations. Existing noise models either oversimplify quantum hardware behavior or require exponential computational resources, making them unsuitable for large-scale quantum error correction.
 
 This project presents a universal noise model for superconducting quantum chips that overcomes these limitations through a **physics-based parameter decomposition methodology** built on the Stim library[1]. Our approach systematically decomposes platform-calibrated parameters (T1, T2, gate fidelities, readout errors) into four distinct physical mechanisms: **decoherence processes, gate infidelity, state preparation and measurement (SPAM) errors, and leakage propagation**. The model incorporates **Covariance Matrix Adaptation Evolution Strategy (CMA-ES) optimization** to automatically fit parameters against experimental quantum error correction data, ensuring maximum fidelity to actual hardware behavior while enabling accurate and efficient simulation across different quantum platforms.
+
 📄 Paper:https://arxiv.org/abs/2603.29439
 
 ## Key Advantages
