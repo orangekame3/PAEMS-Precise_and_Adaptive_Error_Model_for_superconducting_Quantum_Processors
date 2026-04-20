@@ -10,10 +10,10 @@ import time
 
 # ==================== Configuration Section ====================
 # Specify the target data folder name here
-TARGET_DATA_FOLDER = ""  # Modify this to specify the folder to process
+TARGET_DATA_FOLDER = "qec_camp_d9_17q"  # Modify this to specify the folder to process
 
 # Initial parameter configuration file path
-INITIAL_CONFIG_FILE = r""  # Modify this to specify your initial configuration file path
+INITIAL_CONFIG_FILE = r"/Users/orangekame3/src/github.com/orangekame3/PAEMS-Precise_and_Adaptive_Error_Model_for_superconducting_Quantum_Processors/Experiment/data/mtx/qec_camp_d9_17q/initial_parameters.json"  # Modify this to specify your initial configuration file path
 
 # Average optimization phase configuration (fine-grained comprehensive)
 AVERAGE_CMA_CONFIG = {

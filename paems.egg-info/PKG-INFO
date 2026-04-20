@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: paems
+Version: 0.1.0
+Summary: PAEMS: Precise and Adaptive Error Model for Superconducting Quantum Processors
+Requires-Python: >=3.12
+License-File: LICENSE
+Requires-Dist: cma>=4.2.0
+Requires-Dist: matplotlib>=3.8.0
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: stim>=1.15.0
+Dynamic: license-file

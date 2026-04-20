@@ -1,19 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import sys
-import os
-#from objective_function_leakage import M_sim
-
-
-
-root_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-#print(root_path)
-sys.path.append(root_path)
 correlation_matrix_sim = np.load(
     r'')
 
 
-from config import NUM_QUBITS, NUM_ROUNDS, SHOTS, SHOTS_EXP
+from Simulation.config import NUM_QUBITS, NUM_ROUNDS, SHOTS, SHOTS_EXP
 
 num_mea = (NUM_QUBITS - 1) // 2
 shots = SHOTS*SHOTS_EXP

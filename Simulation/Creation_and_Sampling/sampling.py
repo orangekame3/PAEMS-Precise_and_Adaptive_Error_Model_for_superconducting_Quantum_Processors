@@ -1,17 +1,6 @@
 import numpy as np
-import sys
-import os
 
-
-
-current_dir = os.path.dirname(os.path.abspath(__file__))
-project_root = os.path.abspath(os.path.join(current_dir, '..', '..'))
-sys.path.append(project_root)
-root_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.append(root_path)
-current_dir = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(current_dir)
-from operations_simulation import generate_circuits
+from Simulation.Creation_and_Sampling.operations_simulation import generate_circuits
 
 
 def run_sampling(shots,shots2, rounds, num_qubits, lp, sp, spam_rates, sqg_fid, ecr_fid, t1_t2_values, ecr_lengths, rd_lengths, sqg_lengths):

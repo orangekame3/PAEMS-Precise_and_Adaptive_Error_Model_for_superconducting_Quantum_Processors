@@ -1,0 +1,18 @@
+[project]
+name = "paems"
+version = "0.1.0"
+description = "PAEMS: Precise and Adaptive Error Model for Superconducting Quantum Processors"
+requires-python = ">=3.12"
+dependencies = [
+    "cma>=4.2.0",
+    "matplotlib>=3.8.0",
+    "numpy>=2.0.0",
+    "stim>=1.15.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["Simulation*"]

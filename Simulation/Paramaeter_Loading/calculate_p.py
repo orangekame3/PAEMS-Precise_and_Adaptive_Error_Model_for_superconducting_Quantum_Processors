@@ -1,13 +1,7 @@
-import os
-import sys
 import json
 import numpy as np
 
-# Get project root directory and add to path
-root_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.append(root_path)
-
-from config import NUM_QUBITS
+from Simulation.config import NUM_QUBITS
 from Simulation.Paramaeter_Loading.main import (
     calculate_depolarizing_error_probability,
     calculate_decoherence_fidelity,

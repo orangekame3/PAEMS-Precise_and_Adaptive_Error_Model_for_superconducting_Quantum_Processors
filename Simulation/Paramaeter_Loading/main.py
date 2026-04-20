@@ -1,18 +1,5 @@
 import numpy as np
 import math
-import sys
-import os
-
-
-
-root_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.append(root_path)
-
-
-
-
-current_dir = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(current_dir)
 
 
 def cal_rough_czfid(sqg_fid, ecr_fid):
